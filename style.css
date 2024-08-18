@@ -11,3 +11,21 @@ h3{
     color: aqua;
     font-size: 40px;
 }
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 3px solid greenyellow;
+    text-align: center;
+}
+
+th {
+    background: orchid;
+}
+
+td {
+    background: plum;
+}
