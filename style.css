@@ -1,8 +1,13 @@
-html{
-    height: 100%;
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
     background-image: linear-gradient(yellow, red);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h1{
@@ -18,6 +23,10 @@ h3{
 table{
     border-collapse: collapse;
     width: 50%;
+}
+
+table tbody tr td:hover{
+    background: rgb(150, 120, 202);
 }
 
 th, td{
@@ -64,4 +73,17 @@ div {
 .fecha {
     font-style: italic;
     font-weight: bold;
+}
+
+.container{
+    display: flex;
+}
+
+.container div{
+    margin: 0 50px;
+}
+
+.container img {
+    height: auto;
+    width: 600px;
 }
