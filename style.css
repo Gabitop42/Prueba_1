@@ -1,5 +1,8 @@
-body{
+html{
+    height: 100%;
     background-image: linear-gradient(yellow, red);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -14,7 +17,7 @@ h3{
 
 table{
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
 }
 
 th, td{
