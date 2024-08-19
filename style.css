@@ -1,5 +1,8 @@
-body{
+html{
+    height: 100%;
     background-image: linear-gradient(yellow, red);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -28,4 +31,37 @@ th {
 
 td {
     background: plum;
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.noticia {
+    width: 40%;
+    padding: 5px;
+    border: 5px solid rgb(160, 50, 80);
+    border-radius: 20px;
+    background-color: rgb(180, 100, 100);
+}
+
+.noticia h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(150, 120, 202);
+    margin-top: 2px;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.fecha {
+    font-style: italic;
+    font-weight: bold;
 }
